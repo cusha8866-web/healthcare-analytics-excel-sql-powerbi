@@ -57,4 +57,4 @@ Improve cost efficiency and align pricing strategies to ensure sustainable reven
 
 
 
-Each Visit can include multiple Treatments and Lab Results.
+
