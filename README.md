@@ -13,14 +13,16 @@ Understand treatment cost distribution
 Support revenue optimization strategies
 
 # Dataset Description
-This project uses a relational healthcare dataset consisting of five interconnected tables: Patient, Doctor, Visit, Treatments, and Lab Results. The data represents hospital operations, patient interactions, medical treatments, and diagnostic outcomes.
-  # Dataset Structure
+This project uses a relational healthcare dataset consisting of
+five interconnected tables: Patient, Doctor, Visit, Treatments, and Lab Results.
+The data represents hospital operations, patient interactions, medical treatments, and diagnostic outcomes.
+# Dataset Structure
 Patient     – Contains demographic details such as Patient ID, age, gender, race, blood type, medical history, and insurance information.
 Doctor      – Includes doctor details such as Doctor ID, name, specialty, and department.
 Visit       – Stores visit-level information including visit date, reason for visit, status, and associated patient & doctor IDs.
 Treatments  – Contains treatment type, cost, and visit linkage for financial analysis.
 Lab Results – Includes diagnostic test names and result status (Normal, Abnormal, Pending).
-  # Data Relationships
+# Data Relationships
 One Patient can have multiple Visits.
 Each Visit is associated with one Doctor.
 Each Visit can include multiple Treatments and Lab Results.
